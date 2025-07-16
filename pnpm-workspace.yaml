@@ -1,0 +1,7 @@
+onlyBuiltDependencies:
+  - better-sqlite3
+  - core-js-pure
+  - dtrace-provider
+  - esbuild
+  - protobufjs
+  - re2

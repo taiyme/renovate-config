@@ -1,0 +1,41 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchDepNames": ["/^(?:npm:)?deno$/"],
+      "groupName": "deno"
+    },
+    {
+      "matchDepNames": ["/^(?:npm:)?(?:@types/)?bun$/"],
+      "groupName": "bun"
+    },
+    {
+      "matchDepNames": ["/^(?:npm:)?yarn$/"],
+      "groupName": "yarn"
+    },
+    {
+      "matchDepNames": ["/^(?:npm:)?pnpm$/"],
+      "groupName": "pnpm"
+    },
+    {
+      "matchDepNames": ["/^(?:npm:)?npm$/"],
+      "groupName": "npm"
+    },
+    {
+      "matchDepNames": ["/^(?:npm:)?(?:@types/)?node$/"],
+      "groupName": "node"
+    },
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "matchDepNames": [
+        "/^(?:npm:)?(?:deno|yarn|pnpm|npm)$/",
+        "/^(?:npm:)?(?:@types/)?(?:bun|node)$/"
+      ],
+      "groupName": "runtime dependencies (non-major)"
+    },
+    {
+      "matchDepNames": ["/^(?:npm:)?typescript$/"],
+      "groupName": "typescript"
+    }
+  ]
+}

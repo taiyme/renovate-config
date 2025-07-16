@@ -1,0 +1,30 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "automerge": false,
+  "platformAutomerge": false,
+  "timezone": "Asia/Tokyo",
+  "automergeSchedule": "* * * * *",
+  "automergeType": "pr",
+  "automergeStrategy": "squash",
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "pin",
+        "pinDigest",
+        "lockFileMaintenance"
+      ],
+      "automerge": true,
+      "addLabels": ["renovate: automerge"]
+    },
+    {
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "matchDepNames": ["!/^(?:npm:)?typescript$/"],
+      "matchCurrentVersion": "!/^0\\./",
+      "automerge": true,
+      "addLabels": ["renovate: automerge"]
+    }
+  ]
+}

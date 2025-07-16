@@ -1,0 +1,14 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "timezone": "Asia/Tokyo",
+  "schedule": "* 0-3 * * 1",
+  "lockFileMaintenance": {
+    "schedule": "* 0-3 1 * *"
+  },
+  "packageRules": [
+    {
+      "matchDepNames": ["/^(?:npm:)?@taiyme//"],
+      "schedule": "* * * * *"
+    }
+  ]
+}
