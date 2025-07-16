@@ -17,6 +17,11 @@
       "matchDepTypes": ["dependencies", "optionalDependencies"],
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "npm production dependencies (non-major)"
+    },
+    {
+      "matchManagers": ["npm"],
+      "matchDepNames": ["{npm:,}@taiyme/**"],
+      "groupName": null
     }
   ]
 }

@@ -7,7 +7,7 @@
   },
   "packageRules": [
     {
-      "matchDepNames": ["/^(?:npm:)?@taiyme//"],
+      "matchDepNames": ["{npm:,}@taiyme/**"],
       "schedule": "* * * * *"
     }
   ]

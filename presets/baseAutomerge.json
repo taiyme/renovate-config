@@ -21,7 +21,7 @@
         "minor",
         "patch"
       ],
-      "matchDepNames": ["!/^(?:npm:)?typescript$/"],
+      "matchDepNames": ["!{npm:,}typescript"],
       "matchCurrentVersion": "!/^0\\./",
       "automerge": true,
       "addLabels": ["renovate: automerge"]
