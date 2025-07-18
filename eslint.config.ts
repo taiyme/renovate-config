@@ -9,7 +9,7 @@ const files = ['**/*.{js,ts}'];
 export default [
   gitignore(),
   {
-    name: 'vite-plugin-jsx-prune-classname/typescript',
+    name: 'renovate-config/typescript',
     languageOptions: {
       globals: {
         ...globals.node,
