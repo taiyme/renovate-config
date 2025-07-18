@@ -1,0 +1,35 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchManagers": ["npm", "bun"],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "matchDepTypes": [
+        "devDependencies"
+      ],
+      "groupName": "{{manager}} development dependencies (non-major)"
+    },
+    {
+      "matchManagers": ["npm", "bun"],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "matchDepTypes": [
+        "dependencies",
+        "optionalDependencies"
+      ],
+      "groupName": "{{manager}} production dependencies (non-major)"
+    },
+    {
+      "matchManagers": ["npm", "bun"],
+      "matchDepNames": [
+        "{npm:,}@taiyme/**"
+      ],
+      "groupName": null
+    }
+  ]
+}

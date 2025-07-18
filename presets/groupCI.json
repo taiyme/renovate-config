@@ -3,7 +3,10 @@
   "packageRules": [
     {
       "matchCategories": ["ci"],
-      "matchUpdateTypes": ["minor", "patch"],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
       "groupName": "CI dependencies (non-major)"
     }
   ]

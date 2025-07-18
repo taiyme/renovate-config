@@ -5,12 +5,23 @@
     ":disableRateLimiting",
     ":pinAllExceptPeerDependencies"
   ],
-  "labels": ["renovate", "dependencies"],
+  "labels": [
+    "renovate",
+    "dependencies"
+  ],
   "semanticCommits": "enabled",
   "separateMajorMinor": true,
   "separateMultipleMajor": true,
   "rebaseWhen": "automerging",
   "lockFileMaintenance": {
     "enabled": true
-  }
+  },
+  "packageRules": [
+    {
+      "matchDepNames": [
+        "{npm:,}{@types/,}node"
+      ],
+      "versioning": "node"
+    }
+  ]
 }

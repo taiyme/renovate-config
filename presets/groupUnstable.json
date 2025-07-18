@@ -2,7 +2,8 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
-      "matchCurrentVersion": "!/^0\\./",
+      "matchCurrentVersion": "0.**",
+      "addLabels": ["renovate: maybe unstable"],
       "groupName": null
     }
   ]

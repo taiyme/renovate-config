@@ -13,18 +13,20 @@
         "pinDigest",
         "lockFileMaintenance"
       ],
-      "automerge": true,
-      "addLabels": ["renovate: automerge"]
+      "addLabels": ["renovate: automerge"],
+      "automerge": true
     },
     {
       "matchUpdateTypes": [
         "minor",
         "patch"
       ],
-      "matchDepNames": ["!{npm:,}typescript"],
-      "matchCurrentVersion": "!/^0\\./",
-      "automerge": true,
-      "addLabels": ["renovate: automerge"]
+      "matchDepNames": [
+        "!{npm:,}typescript"
+      ],
+      "matchCurrentVersion": "!0.**",
+      "addLabels": ["renovate: automerge"],
+      "automerge": true
     }
   ]
 }
