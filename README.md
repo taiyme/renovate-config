@@ -1,6 +1,7 @@
 # taiyme/renovate-config
 
-[![License](https://img.shields.io/npm/l/%40taiyme%2Frenovate-config?style=flat)](./LICENSE)
+[![Test](https://github.com/taiyme/renovate-config/actions/workflows/test.yaml/badge.svg)](https://github.com/taiyme/renovate-config/actions/workflows/test.yaml)
+[![License](https://img.shields.io/github/license/taiyme/renovate-config?style=flat)](./LICENSE)
 [![Donate](https://img.shields.io/badge/donate-%3C3-f96854?style=flat)](https://taiy.me/to/donate)
 
 taiyのためのRenovate共有プリセットです。
