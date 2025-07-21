@@ -31,7 +31,9 @@
     },
     {
       "matchDepNames": "{npm:,}typescript",
-      "groupName": "typescript"
+      "groupName": "typescript",
+      "addLabels": ["renovate: maybe non-semver"],
+      "automerge": false
     }
   ]
 }

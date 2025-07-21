@@ -6,27 +6,16 @@
   "automergeSchedule": "* * * * *",
   "automergeType": "pr",
   "automergeStrategy": "squash",
-  "packageRules": [
-    {
-      "matchUpdateTypes": [
-        "pin",
-        "pinDigest",
-        "lockFileMaintenance"
-      ],
-      "addLabels": ["renovate: automerge"],
-      "automerge": true
-    },
-    {
-      "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ],
-      "matchDepNames": [
-        "!{npm:,}typescript"
-      ],
-      "matchCurrentVersion": "!0.**",
-      "addLabels": ["renovate: automerge"],
-      "automerge": true
-    }
-  ]
+  "lockFileMaintenance": {
+    "automerge": true
+  },
+  "minor": {
+    "automerge": true
+  },
+  "patch": {
+    "automerge": true
+  },
+  "pin": {
+    "automerge": true
+  }
 }
