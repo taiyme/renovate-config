@@ -33,7 +33,8 @@
       "matchDepNames": "{npm:,}typescript",
       "groupName": "typescript",
       "addLabels": ["renovate: maybe non-semver"],
-      "automerge": false
+      "automerge": false,
+      "semanticCommitType": "fix"
     }
   ]
 }

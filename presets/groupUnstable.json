@@ -5,7 +5,8 @@
       "matchCurrentVersion": "/^0\\./",
       "groupName": null,
       "addLabels": ["renovate: maybe unstable"],
-      "automerge": false
+      "automerge": false,
+      "semanticCommitType": "fix"
     }
   ]
 }
