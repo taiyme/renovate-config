@@ -1,0 +1,14 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "minimumReleaseAge": "14 days",
+  "osvVulnerabilityAlerts": true,
+  "vulnerabilityAlerts": {
+    "enabled": true,
+    "groupName": null,
+    "addLabels": ["renovate: security alert"],
+    "schedule": "* * * * *",
+    "minimumReleaseAge": null,
+    "semanticCommitType": "fix",
+    "dependencyDashboardApproval": false
+  }
+}

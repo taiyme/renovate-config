@@ -4,6 +4,7 @@
     "local>taiyme/renovate-config//presets/baseRecommended",
     "local>taiyme/renovate-config//presets/baseSchedule",
     "local>taiyme/renovate-config//presets/baseAutomerge",
+    "local>taiyme/renovate-config//presets/baseSecurity",
     "local>taiyme/renovate-config//presets/groupCI",
     "local>taiyme/renovate-config//presets/groupNpmBun",
     "local>taiyme/renovate-config//presets/groupRuntime",

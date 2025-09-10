@@ -10,7 +10,8 @@
       "matchDepNames": [
         "{npm:,}@taiyme/**"
       ],
-      "schedule": "* * * * *"
+      "schedule": "* * * * *",
+      "minimumReleaseAge": null
     }
   ]
 }
