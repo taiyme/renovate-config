@@ -1,28 +1,8 @@
 {
-  "compilerOptions": {
-    "target": "ESNext",
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
-    "lib": [
-      "ESNext",
-    ],
-    "libReplacement": true,
-    "baseUrl": ".",
-    "noEmit": true,
-    "strict": true,
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitOverride": true,
-    "noImplicitReturns": true,
-    "noUncheckedIndexedAccess": true,
-    "checkJs": true,
-    "skipLibCheck": true,
-    "isolatedModules": true,
-    "verbatimModuleSyntax": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-  },
-  "include": [
-    "./*",
-    "./scripts/**/*",
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.dev.json",
+    },
   ],
 }
