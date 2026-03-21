@@ -1,29 +1,31 @@
-import type { Linter } from 'eslint';
 import taiymeConfig from '@taiyme/eslint-config';
 import tsEslintParser from '@typescript-eslint/parser';
 import gitignore from 'eslint-config-flat-gitignore';
+import { defineConfig } from 'eslint/config';
 import globals from 'globals';
 
 const files = ['**/*.{js,ts}'];
 
-export default [
+export default defineConfig([
   gitignore(),
   {
-    name: 'renovate-config/typescript',
+    files,
     languageOptions: {
       globals: {
         ...globals.node,
       },
       parser: tsEslintParser,
       parserOptions: {
-        project: './tsconfig.json',
+        projectService: true,
         tsconfigRootDir: import.meta.dirname,
       },
     },
-    files,
   },
-  ...taiymeConfig.configs.typescript.map((config) => ({
-    ...config,
+  {
     files,
-  })),
-] as const satisfies Linter.Config[];
+    extends: [
+      taiymeConfig.configs.typescript,
+      taiymeConfig.configs.stylistic,
+    ],
+  },
+]);

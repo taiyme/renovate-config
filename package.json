@@ -17,7 +17,7 @@
     "test": "node ./scripts/test.ts"
   },
   "devDependencies": {
-    "@taiyme/eslint-config": "0.11.1",
+    "@taiyme/eslint-config": "1.0.1",
     "@types/node": "22.19.3",
     "@typescript-eslint/parser": "8.51.0",
     "better-typescript-lib": "2.12.0",
