@@ -1,10 +1,9 @@
 import { execSync } from 'node:child_process';
 import fs from 'node:fs/promises';
 import { resolve } from 'node:path';
-import { fileURLToPath } from 'node:url';
 
 async function main() {
-  const cwd = fileURLToPath(new URL('..', import.meta.url));
+  const cwd = resolve(import.meta.dirname, '..');
 
   const files = fs.glob(['**/*.json', '!**/node_modules/**'], { cwd });
 

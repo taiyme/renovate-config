@@ -11,10 +11,10 @@
   "author": "taiy <me@taiy.me> (https://taiy.me/)",
   "type": "module",
   "scripts": {
-    "clean": "tsx ./scripts/clean.js && pnpm store prune",
-    "lint": "eslint .",
-    "lint:fix": "eslint --fix .",
-    "test": "tsx ./scripts/test.js"
+    "clean": "node ./scripts/clean.ts && pnpm store prune",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "test": "node ./scripts/test.ts"
   },
   "devDependencies": {
     "@taiyme/eslint-config": "0.11.1",
@@ -26,7 +26,6 @@
     "globals": "16.5.0",
     "jiti": "2.6.1",
     "renovate": "42.69.2",
-    "tsx": "4.21.0",
     "typescript": "5.9.3"
   },
   "packageManager": "pnpm@10.27.0",
