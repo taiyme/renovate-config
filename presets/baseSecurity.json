@@ -1,6 +1,9 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "minimumReleaseAge": "14 days",
+  "lockFileMaintenance": {
+    "minimumReleaseAge": "14 days"
+  },
   "osvVulnerabilityAlerts": true,
   "vulnerabilityAlerts": {
     "enabled": true,
