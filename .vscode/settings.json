@@ -13,4 +13,15 @@
     "typescript",
   ],
   "typescript.tsdk": "./node_modules/typescript/lib",
+  "json5.validate.enable": true,
+  "json5.format.enable": true,
+  "json5.format.keepLines": false,
+  "json5.format.trailingCommas": "all",
+  "json5.format.keyQuotes": "double",
+  "json5.format.stringQuotes": "double",
+  "json5.format.tabSize": 2,
+  "[json5]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "BlueGlassBlock.better-json5",
+  },
 }
