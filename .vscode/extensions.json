@@ -1,6 +1,7 @@
 {
   "recommendations": [
     "blueglassblock.better-json5",
+    "editorconfig.editorconfig",
     "dbaeumer.vscode-eslint",
   ],
   "unwantedRecommendations": [
