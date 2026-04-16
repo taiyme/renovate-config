@@ -1,6 +1,8 @@
 minimumReleaseAge: 20160 # 14 days
 minimumReleaseAgeExclude:
   - '@taiyme/*'
+  # Renovate security update: renovate@43.102.11
+  - renovate@43.102.11
 
 onlyBuiltDependencies:
   - better-sqlite3
