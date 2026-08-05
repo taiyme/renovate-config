@@ -13,6 +13,7 @@
   "separateMajorMinor": true,
   "separateMultipleMajor": true,
   "rebaseWhen": "automerging",
+  "prCreation": "not-pending",
   "lockFileMaintenance": {
     "enabled": true
   },
