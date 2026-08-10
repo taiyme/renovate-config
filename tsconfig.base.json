@@ -1,12 +1,10 @@
 {
   "compilerOptions": {
-    "baseUrl": "${configDir}/",
     "target": "ESNext",
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
-    "lib": [
-      "ESNext",
-    ],
+    "lib": ["ESNext"],
+    "types": ["node"],
     "libReplacement": true,
     "noEmit": true,
     "strict": true,
