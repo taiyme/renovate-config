@@ -12,7 +12,7 @@
     "javascript",
     "typescript",
   ],
-  "typescript.tsdk": "./node_modules/typescript/lib",
+  "js/ts.tsdk.path": "./node_modules/typescript/lib",
   "json5.validate.enable": true,
   "json5.format.enable": true,
   "json5.format.keepLines": false,
