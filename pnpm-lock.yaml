@@ -12,8 +12,8 @@ importers:
         specifier: 1.0.1
         version: 1.0.1(@typescript-eslint/eslint-plugin@8.51.0(@typescript-eslint/parser@8.70.0(eslint@9.39.5(jiti@2.7.0))(typescript@5.9.3))(eslint@9.39.5(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/parser@8.70.0(eslint@9.39.5(jiti@2.7.0))(typescript@5.9.3))(eslint@9.39.5(jiti@2.7.0))(typescript@5.9.3)
       '@types/node':
-        specifier: 24.13.3
-        version: 24.13.3
+        specifier: 24.13.4
+        version: 24.13.4
       '@typescript-eslint/parser':
         specifier: 8.70.0
         version: 8.70.0(eslint@9.39.5(jiti@2.7.0))(typescript@5.9.3)
@@ -858,8 +858,8 @@ packages:
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
 
-  '@types/node@24.13.3':
-    resolution: {integrity: sha512-Dh8vAsV36ig5wa9OX4pXvMc9D3Veibfw2wix0CUwYODLD8nkj9UsLjASr49nPg+2eKzxhBV+v7L8pXvT4e639Q==}
+  '@types/node@24.13.4':
+    resolution: {integrity: sha512-YJ7EqCstVTzIr0fMr7qul/977en+pQHrfmuKIo6Zr9i75Be21dr3MovcfvGtyvi2HAUrRerWps5sMO9I7WaxDw==}
 
   '@types/parse-path@7.1.0':
     resolution: {integrity: sha512-EULJ8LApcVEPbrfND0cRQqutIOdiIgJ1Mgrhpy755r14xMohPTEpkV/k28SJvuOs9bHRFW8x+KeDAEPiGQPB9Q==}
@@ -4408,13 +4408,13 @@ snapshots:
 
   '@types/bunyan@1.8.11':
     dependencies:
-      '@types/node': 24.13.3
+      '@types/node': 24.13.4
 
   '@types/cacheable-request@6.0.3':
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 24.13.3
+      '@types/node': 24.13.4
       '@types/responselike': 1.0.3
 
   '@types/debug@4.1.12':
@@ -4433,7 +4433,7 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 24.13.3
+      '@types/node': 24.13.4
 
   '@types/mdast@4.0.4':
     dependencies:
@@ -4443,7 +4443,7 @@ snapshots:
 
   '@types/ms@2.1.0': {}
 
-  '@types/node@24.13.3':
+  '@types/node@24.13.4':
     dependencies:
       undici-types: 7.18.2
 
@@ -4453,7 +4453,7 @@ snapshots:
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 24.13.3
+      '@types/node': 24.13.4
 
   '@types/semver@7.7.1': {}
 
